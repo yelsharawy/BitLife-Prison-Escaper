@@ -1,0 +1,4 @@
+1st byte: height
+2nd byte: width
+horizontal - ceil((height + 1) * width / 8) bytes
+vertical - ceil(height * (width + 1) / 8) bytes
